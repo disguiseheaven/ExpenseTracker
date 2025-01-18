@@ -7,5 +7,5 @@ The project aims to manage and track the expenses of multiple users. It allows u
 - users.py: Manages user registration and login.
 - main.py: Acts as central point for the whole application to run.
 - templates(folder):
-      - index.html: Page to add the expense.
-      - 
+    - index.html: Page to add the expense.
+    - 
