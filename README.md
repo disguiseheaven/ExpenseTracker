@@ -57,6 +57,13 @@ The **ExpenseTracker** project is a Flask-based backend application that allows 
     python main.py
     ```
 
+   After running, the app will start a Flask server on **localhost**. The default URL to access the app is:
+   ```
+   http://127.0.0.1:5000/
+   ```
+
+   Paste this URL into your browser to access the **ExpenseTracker** app.
+
 ---
 
 ### Features:
