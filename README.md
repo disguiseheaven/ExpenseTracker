@@ -69,7 +69,7 @@ The **ExpenseTracker** project is a Flask-based backend application that allows 
 ### Features:
 
 - **User Registration and Authentication**: New users can sign up, and existing users can sign in to track their expenses.
-- **Expense Management**: Users can add, view, and categorize their expenses.
+- **Expense Management**: Users can add and view their expenses.
 - **Expense Summary**: Includes visual charts summarizing monthly, category-wise, and year-to-date expenses.
   
 ---
@@ -81,5 +81,44 @@ The **ExpenseTracker** project is a Flask-based backend application that allows 
 - Additional libraries (listed in `requirements.txt`)
 
 ---
+### Example Usage:
 
+1. **Sign up for a new user**:
+
+   - When a new user visits the app, they will be prompted to sign up.
+   - The signup page looks like this:
+
+   ![Signup Page](images/signup_page.png)
+
+2. **Sign in to your account**:
+
+   - After signing up, users can log in with their credentials on the signin page.
+   - Here's how the signin page looks:
+
+   ![Signin Page](images/signin_page.png)
+
+3. **Add a New Expense**:
+
+   - Once logged in, users can add their expenses by filling in details like description, amount, and date.
+   - The "Add Expense" page looks like this:
+
+   ![Add Expense Page](images/add_expense_page.png)
+
+4. **View All Expenses**:
+
+   - After adding expenses, users can view a list of all their expenses.
+   - The page showing the list of expenses:
+
+   ![All Expenses](images/all_expenses_page.png)
+
+5. **Expense Summary**:
+
+   - The app provides a summarized view of expenses with bar charts and pie charts.
+   - Here’s a sample summary page showing category-wise expenses and a pie chart comparison between the current and previous month:
+
+   ![Expense Summary](images/expense_year_date.png)
+   ![Expense Summary](images/expense_bar_chart.png)
+   ![Expense Summary](images/expense_pie_chart.png)
+
+---
 Enjoy managing your expenses with **ExpenseTracker**!
