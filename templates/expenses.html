@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>All Expenses</title>
+</head>
+<body>
+    <h1>All Expenses</h1>
+
+    {% if expenses %}
+        <ul>
+        {% for expense in expenses %}
+            <li>{{ expense['description'] }} - ₹{{ expense['amount'] }} on {{ expense['date'] }}</li>
+        {% endfor %}
+        </ul>
+    {% else %}
+        <p>No expenses recorded yet.</p>
+    {% endif %}
+    
+    <hr>
+    <a href="/">Back to Add Expense</a>
+    <a href="/expense_summary">Summarize Expenses</a>
+    <a href="/logout">Log Out</a>
+</body>
+</html>

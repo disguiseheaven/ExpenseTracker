@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Expense Summary</title>
+</head>
+<body>
+    <h1>Expense Summary</h1>
+
+    <h2>Current Year Expenses</h2>
+    <p>Total expenses: ₹{{ total_expenses }}</p>
+
+    <h2>Current Month Expenses</h2>
+    <p>Total expenses for the current month: ₹{{ total_expenses_month }}</p>
+
+    <h2>Today's Expenses</h2>
+    <p>Total expenses for today: ₹{{ total_expenses_day }}</p>
+
+    <h2>Visualizing Total Expenses by Category</h2>
+    <img src="{{ chart_url }}" alt="Expense Summary Chart">
+
+    <h2>Expense Comparison for Current Month</h2>
+    <img src="{{ pie_chart_url }}" alt="Expense Comparison Chart">
+
+    <hr>
+
+    <a href="/">Add New Expense</a>
+    <a href="/expenses">View All Expenses</a>
+    <a href="/logout">Log Out</a>
+</body>
+</html>
